@@ -37,7 +37,7 @@ if(ordenId){
         <input className="" type="text" value={email} onChange={(event) => setEmail(event.target.value)} />
         <label>telefono</label>
         <input type="text" value={telefono} onChange={(event) => setTelefono(event.target.value)} /> 
-        <button className="buton-check" onClick={crearOrden} >Finalizar compra</button> 
+        <button className="buton-check" onClick={crearOrden} >Enviar</button> 
     </form>
   )
 }
