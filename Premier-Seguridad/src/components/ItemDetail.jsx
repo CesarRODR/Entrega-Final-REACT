@@ -32,7 +32,7 @@ export default function ItemDetail({ imagen, nombre, descripcion, stock, precio,
                 {
                     quanrityAdded > 0 ? (
                         <Link to={"/cart"}>
-                        <button className="finalizar-compra-button">Terminar compra</button>
+                        <button className="finalizar-compra-button">Continuar compra</button>
                         </Link>
                     ) : (
                         <div className="itemcount">

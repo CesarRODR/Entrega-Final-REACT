@@ -12,7 +12,7 @@ const Cart = () => {
         return (
             <div>
                 <h1>NO HAY ITEMS EN EL CARRITO!</h1>
-                <Link to={"/"} className='option'> Volver a todos los productos</Link>
+                <Link to={"/"} className='option'> <button className='btn-volver'>Volver a todos los productos</button></Link>
             </div>
         )
     }
@@ -24,14 +24,16 @@ const Cart = () => {
           ))}
         
           <h3>total: ${total}</h3>
-          <button onClick={() => clearCart()} className="button">
+          <div className='botones-cart'>
+          <button  onClick={() => clearCart()} className="limpiar-cart">
             Limpiar carrito
           </button>
           <Link to={"/checkout"} className="option">
-            <div className='btn-finalizar'>
-            <button>Finalizar Compra</button> 
-            </div>
+            
+            <button className='fin-compra'>Finalizar Compra</button> 
+            
           </Link>
+          </div>
         </div>
       );
       

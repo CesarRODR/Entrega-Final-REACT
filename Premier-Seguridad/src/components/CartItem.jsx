@@ -9,16 +9,16 @@ const CartItem = ({ objeto, nombre, imagen, precio, quantity }) => {
   return (
     <>
       <section className='carrito'>
-        <div className='detalles-cart'>
+        <div>
           <img className='img-cart' src={imagen} alt="imagen" />
         </div>
-
-        <div>
+        <div className='cart-detalles'>
           <h3>{objeto} "{nombre}"</h3>
           <p >Precio por unidad ${precio}</p>
           <p >Cant. {quantity} </p>
-          <button onClick={() => removeItem ()} >Eliminar</button>
+          <button className='delete' onClick={() => removeItem ()} >Eliminar</button>
         </div>
+
       </section>
 
     </>

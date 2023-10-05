@@ -58,7 +58,7 @@
 }
 
 .item-count button:hover {
-  color: #6c62a3;
+  color: #989798;
 }
 
 .item-count .quantity {
@@ -102,10 +102,6 @@
   font-weight: 200;
 }
 
-.carrito {
-  border: solid 5px blue;
-}
-
 .detalles-cart {
   width: 20%;
   height: 250px;
@@ -113,6 +109,7 @@
   align-content: center;
 
 }
+
 .finalizar-compra-button {
   background-color: transparent;
   border: 2px solid #5b646d;
@@ -129,29 +126,111 @@
   background-color: #3f6d9e47;
   color: #1a1717;
 }
-/*  */
+
 
 .formulario-check {
+  
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
 
-  background: rgba(11, 60, 112, 0.1294117647);
-  /* padding: 30px; */
-  margin: auto;
-  margin-top: 100px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  box-shadow: 10PX 15px 20px rgba(11, 60, 112, 0.3882352941);
-  /* width: 95%; */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
   padding: 10px;
-  border-radius: 6px;
-  margin-bottom: 16px;
-  border: solid 1px rgb(0, 110, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.buton-check {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #513a70; 
 }
 
 .img-cart {
-  width: 150px;
-  height: 80px;
-  
+  padding: 15px;
+  height: 220px;
+  border-radius:60px;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s;
+}
+.limpiar-cart{
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease;
+
+
+}
+.limpiar-cart:hover{
+  background-color: #513a70; 
+}
+.fin-compra{
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+  margin-left: 20px;
+
+}
+
+.fin-compra:hover {
+  background-color: #513a70; 
+}
+.delete{
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease; 
+
+}
+.delete:hover{
+  background-color: #513a70; 
+}
+.btn-volver{
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s ease;
 
 }
