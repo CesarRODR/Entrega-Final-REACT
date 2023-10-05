@@ -8,7 +8,7 @@ export const NavBar = () => {
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <Link to="/">
                     <img className="logo" src="/logo1.jpg" alt="Premier Seguridad" />
-                    <p>Premier Seguridad</p>
+                    <p className="nav-premier">Premier Seguridad</p>
                 </Link>
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

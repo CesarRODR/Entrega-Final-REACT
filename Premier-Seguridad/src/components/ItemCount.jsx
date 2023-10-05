@@ -20,12 +20,13 @@
     
     }
     return(
-        <div className="itemcount-btn">
-            <button onClick={decremento}>➖</button>
+        <div className="item-count">
+            <button className="btn-dec" onClick={decremento}>➖</button>
             <h3>{cantidad}</h3>
-            <button onClick={incremento}>➕</button>
-            <br />
-            <button onClick={() => onAdd(cantidad)} disabled ={!stock}>Agregar al carrito</button>
+            <button className="btn-incr" onClick={incremento}>➕</button>
+            <div>
+            <button className="adcarro" onClick={() => onAdd(cantidad)} disabled ={!stock}>Agregar al carrito</button>
+            </div>
         </div>
    
     )

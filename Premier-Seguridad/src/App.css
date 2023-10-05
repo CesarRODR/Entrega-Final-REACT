@@ -1,10 +1,21 @@
 #root {
   padding: 2rem;
   background: linear-gradient(rgb(131, 128, 128), rgb(154, 154, 209));
+  
 }
 
 .logo {
   width: 50px;
+  transition: 2500ms;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.logo:hover {
+  transform: scale(1.2, 1.3);
+}
+.nav-premier{
+  margin-left: 20px;
+  text-decoration: none;
 }
 
 .item-list-container {
@@ -25,21 +36,50 @@
   width: 100%;
   max-width: 1200px;
   height: 430px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   justify-content: center;
-  margin: auto;
   margin-top: 40px;
-  margin-bottom: 50px;
-  border: solid red 2px;
+  
+}
 
+.item-count {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 30px; 
+}
+
+.item-count button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.item-count button:hover {
+  color: #6c62a3;
+}
+
+.item-count .quantity {
+  margin: 0 16px;
+  font-size: 18px;
+}
+
+.card-item{
+  width: 250px;
+  height: 330px;
+  border-radius: 8px;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s;
 }
 
 .card {
   width: 330px;
   height: 430px;
-  border-radius: 8px;
+  border-radius:60px;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   text-align: center;
@@ -62,12 +102,6 @@
   font-weight: 200;
 }
 
-
-.count {
-  border: solid 3px red;
-
-}
-
 .carrito {
   border: solid 5px blue;
 }
@@ -79,6 +113,23 @@
   align-content: center;
 
 }
+.finalizar-compra-button {
+  background-color: transparent;
+  border: 2px solid #5b646d;
+  color: #9500ff;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.finalizar-compra-button:hover {
+  background-color: #3f6d9e47;
+  color: #1a1717;
+}
+/*  */
 
 .formulario-check {
 
