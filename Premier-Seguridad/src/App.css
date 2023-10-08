@@ -1,5 +1,5 @@
 #root {
-  padding: 2rem;
+  
   background: linear-gradient(rgb(131, 128, 128), rgb(154, 154, 209));
   
 }
@@ -18,11 +18,11 @@
   text-decoration: none;
 }
 
-.item-list-container {
+/* .item-list-container {
   text-align: center;
   font-family: sans-serif;
   color: rgb(83, 83, 109);
-}
+} */
 
 .item-list {
   display: grid;
@@ -69,11 +69,11 @@
 .card-item{
   width: 250px;
   height: 330px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   text-align: center;
-  transition: all 0.25s;
+  background-color: rgba(50, 41, 56, 0.619);
 }
 
 .card {

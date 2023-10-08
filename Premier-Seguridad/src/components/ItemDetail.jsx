@@ -17,13 +17,12 @@ export default function ItemDetail({ imagen, nombre, descripcion, stock, precio,
         }
         addItem(item, quantity)
         Swal.fire({
-            title: 'Tu producto fue agrgado al: 🛒',
-            showClass: {
-            popup: 'animate__animated animate__fadeInDown'
-            },
-            hideClass: {
-            popup: 'animate__animated animate__fadeOutUp'
-            }
+            title: 'Fantastico !',
+        text: `Agregaste ${item.nombre} al carrito !🛒`,
+        imageUrl: `${item.imagen}`,
+        imageWidth: 200,
+        imageHeight: 200,
+       
         })
         
     }

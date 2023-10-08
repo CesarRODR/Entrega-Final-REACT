@@ -20,10 +20,10 @@ export const NavBar = () => {
                                 <NavLink to="/categoria/DVR/" className="nav-link active" aria-current="page">DVRS</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink to="/categoria/CAMARA" className="nav-link">Camaras</NavLink>
+                            <NavLink to="/categoria/CAMARA" className="nav-link">CAMARAS</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink to="/categoria/CONECTORES" className="nav-link">Conectores</NavLink>
+                            <NavLink to="/categoria/CONECTORES" className="nav-link">CONECTORES</NavLink>
                             </li>
                         </ul>
                     </div>
